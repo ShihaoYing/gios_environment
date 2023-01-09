@@ -12,7 +12,7 @@ you create a compatible environment.  As part of the starter material that we
 provide to you **some** of the binaries are pre-compiled for 64-bit AMD/Intel
 compatible platforms using the Ubuntu 20.04 tools.
 You don't need to use such a platform, but in that case
-you will need to write the code that we've implemented in those pieces (you endhttps://piazza.com/reset_password?token=TBHCVGXtbYB 
+you will need to write the code that we've implemented in those pieces (you end
 up writing it at some point in the projects where you need it).
 
 Some students find this challenging; for courses where the system is just _a

@@ -12,7 +12,7 @@ you create a compatible environment.  As part of the starter material that we
 provide to you **some** of the binaries are pre-compiled for 64-bit AMD/Intel
 compatible platforms using the Ubuntu 20.04 tools.
 You don't need to use such a platform, but in that case
-you will need to write the code that we've implemented in those pieces (you end
+you will need to write the code that we've implemented in those pieces (you endhttps://piazza.com/reset_password?token=TBHCVGXtbYB 
 up writing it at some point in the projects where you need it).
 
 Some students find this challenging; for courses where the system is just _a
@@ -349,14 +349,14 @@ Windows](https://docs.google.com/document/d/1_geDGrI0JlHHtnJY0P5pe6yU3E19NLEejdA
 Change to the directory you plan to use for the course.  Then clone this repository with the command
 
 ```console
-$ git clone https://github.gatech.edu/gios-fall-22/pr1.git
+$ git clone https://github.gatech.edu/gios-spr-23/pr1.git
 ...
 ```
 
 (If this command fails with a complaint about "server certificate verification failed", then you might need to run
 
 ```console
-$ GIT_SSL_NO_VERIFY=true git clone --recursive https://github.gatech.edu/gios-fall-22/pr1.git
+$ GIT_SSL_NO_VERIFY=true git clone --recursive https://github.gatech.edu/gios-spr-23/pr1.git
 ...
 $ cd pr1
 $ git config http.sslVerify false
@@ -397,7 +397,7 @@ This was posted on the ML4T site Spring 2018 and it makes it much easier to mana
 6) Next
 
    ```console
-   cd gios-fall-22-pr1
+   cd gios-spr-23-pr1
    git remote add upstream https://github.gatech.edu/gios-spr-23/pr1.git
    #double check
    git remote -v

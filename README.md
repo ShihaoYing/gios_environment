@@ -178,7 +178,7 @@ that students have found successful.
   * You may use the Ubuntu 20.04 environment on Windows 10 (2004 and more
       recent) as we mentioned above. Older versions have issues with address
       sanitizer.
-  * You may use the Docker container (on [docker.com](https://hub.docker.com/repository/docker/gtomscs6200/sum22-environment) as gtomscs6200/sum22-environment). This public environment image closely matches our grading environment and may be configured to use git and deploy keys for easy access to your GitHub repo. See [source](https://docs.github.com/en/developers/overview/managing-deploy-keys).
+  * You may use the Docker container (on [docker.com](https://hub.docker.com/repository/docker/gtomscs6200/spr23-environment) as gtomscs6200/spr23-environment). This public environment image closely matches our grading environment and may be configured to use git and deploy keys for easy access to your GitHub repo. See [source](https://docs.github.com/en/developers/overview/managing-deploy-keys).
     Or you may build your own Docker image using the Dockerfile included in this
     repository.  Note: the Dockerfile relies upon **setup.sh** to actually
     install the components.  This is the same script we use when setting up the
@@ -371,19 +371,19 @@ pretends security is not an issue.)
 
 This was posted on the ML4T site Spring 2018 and it makes it much easier to manage your private repo and the public repo, in case changes are made to it.
 
-1) Create a private repo named the same: gios-fall-22-pr1
+1) Create a private repo named the same: gios-spr-23-pr1
 
 2) Get the class repo
 
    ```console
-   git clone --bare https://github.gatech.edu/gios-fall-22/pr1.git
+   git clone --bare https://github.gatech.edu/gios-spr-23/pr1.git
    ```
 
 3) mirror this to your private repo
 
    ```console
    cd pr1.git
-   git push --mirror https://github.gatech.edu/<gtid>/gios-fall-22-pr1
+   git push --mirror https://github.gatech.edu/<gtid>/gios-spr-23-pr1
    ```
 
 4) You can now delete the directory pr1 if you wish
@@ -391,14 +391,14 @@ This was posted on the ML4T site Spring 2018 and it makes it much easier to mana
 5) Now clone your private repo to your home dir
 
    ```console
-   git clone https://github.gatech.edu/<gtid>/gios-fall-22-pr1.git
+   git clone https://github.gatech.edu/<gtid>/gios-spr-23-pr1.git
    ```
 
 6) Next
 
    ```console
    cd gios-fall-22-pr1
-   git remote add upstream https://github.gatech.edu/gios-fall-22/pr1.git
+   git remote add upstream https://github.gatech.edu/gios-spr-23/pr1.git
    #double check
    git remote -v
    ```

@@ -142,20 +142,8 @@ that students have found successful.
   * ESXi. If you don't know what this is and don't recognize the term "bare
       metal hypervisor" then you probably don't want this particular option.
   * Xen. Again, this is a bare-metal hypervisor so if you don't know what that means, don't pursue this option.
-  * VMWare Workstation. Note that this is a paid product but as a Georgia Tech
-    student you get a free license. Start here:
-    http://onthehub.com/download/software-discounts/vmware and enter information
-    about Georgia Tech. For campus pick "Atlanta Main Campus" and then choose
-    "College of Computing" - if you pick CoC from the first dropdown it tells
-    you there is no store (which isn't true). If you take CS-6750 you'll learn
-    all about these HCI failures and how to avoid them...  GT does not make the
-    student roster data available to On The Hub until AFTER the registration
-    period closes.  You can use a 30 day evaluation version in the interim.
-    Also note that Vagrant requires a separate plugin license to use Vagrant
-    with VMWare (US$72 after student discount.)  If you install the plugin on
-    Linux and don't have a license, you won't be able to use any provider (so
-    don't go down this path unless you get the license.) **Bottom line: if you
-    want to use Vagrant, you probably don't want to use VMWare.**
+  * VMWare Workstation. Note that this is a paid product. If you want to use
+    Vagrant, you probably don't want to use VMWare.
   * Parallels.  Virtualization server for MacOS X.  Once again, a free license
     is available via Georgia Tech (see link under VMWare).
   * You may use Vagrant to construct your environment.  See [Easy Mode Install](#easy-mode-install) for details. Note: the Vagrantfile

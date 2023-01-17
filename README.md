@@ -410,6 +410,7 @@ This was posted on the ML4T site Spring 2018 and it makes it much easier to mana
    git push origin primary   # your repo
    ```
 
+   Assuming primary is the current branch, please refer to [git pull documentation](https://git-scm.com/docs/git-pull) for a detailed description of the git pull command and its option. 
    If you do not specify the remote, it will default to the origin (your repo).
 
 8) If you are scared of pushing to upstream you can disable pushing to upstream using

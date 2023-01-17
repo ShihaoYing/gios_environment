@@ -144,8 +144,7 @@ that students have found successful.
   * Xen. Again, this is a bare-metal hypervisor so if you don't know what that means, don't pursue this option.
   * VMWare Workstation. Note that this is a paid product. If you want to use
     Vagrant, you probably don't want to use VMWare.
-  * Parallels.  Virtualization server for MacOS X.  Once again, a free license
-    is available via Georgia Tech (see link under VMWare).
+  * Parallels.  Virtualization server for MacOS X. A [student discount](https://onthehub.com/parallels/) is available.
   * You may use Vagrant to construct your environment.  See [Easy Mode Install](#easy-mode-install) for details. Note: the Vagrantfile
     includes the ability to use the **hyperv** provider (on Windows 10/Server 2016+).  This is new, so please understand that this
     _may not work_.  We have not enabled the SMB sharing yet - if you get it to
